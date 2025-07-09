@@ -20,7 +20,7 @@ function Animal(type, sound) {
   this.sound = sound;
 
   this.makeSound = function () {
-    console.log(`${this.type} 내는 소리: ${this.sound}`);
+    console.log(`${this.type} 이(가) ${this.sound} 소리를 냅니다.`);
   };
 }
 let dog = new Animal("강아지", "멍멍");
